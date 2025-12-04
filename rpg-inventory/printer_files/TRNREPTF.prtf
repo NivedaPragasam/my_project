@@ -1,0 +1,12 @@
+     A                                      OFLIND(*IN99)
+     A          R HDR1
+     A                                      SKIPB(1)
+     A            HDTXT        50A
+
+     A          R DETAIL
+     A                                      SPACEA(1)
+     A            ITEM          5A
+     A            LOC           5A
+     A            QTY           10S 0
+     A            TRNTYPE       1A
+     A            TRNNO         7S 0

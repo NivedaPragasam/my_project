@@ -1,0 +1,6 @@
+A          R PRTINV
+A            INVNO         10A
+A            ITEMNO        15A
+A            QTY            9P 3
+A            UPRICE        15P 4
+A            AMOUNT        15P 2

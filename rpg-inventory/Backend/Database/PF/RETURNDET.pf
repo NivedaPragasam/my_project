@@ -1,0 +1,6 @@
+A          R RTITEM
+A            RTHDRNO       12A
+A            LINENO         5P 0
+A            ITEMNO        15A
+A            QTY            9P 3
+A          K RTHDRNO LINENO

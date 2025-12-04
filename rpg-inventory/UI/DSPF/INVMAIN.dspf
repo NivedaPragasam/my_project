@@ -1,0 +1,8 @@
+A          R MAINSCR
+A                                      CF03(03)
+A            INVNO         10A  B  5  5
+A            CUSTNO        10A  B  6  5
+A            AMOUNT        15P 2 B  7  5
+A            STATUS         1A  B  8  5
+A          R MSGSCR
+A            ERRMSG        50A  O 23  2 COLOR(RED)

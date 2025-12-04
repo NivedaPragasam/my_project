@@ -1,0 +1,4 @@
+A          R SUPPSCR
+A                                      CF03(03)
+A            SUPPNO        10A  B  5  5
+A            ACTION        1A   B  6  5  VALUE('C=Create U=Update')

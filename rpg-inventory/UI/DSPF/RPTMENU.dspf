@@ -1,0 +1,4 @@
+A          R RPTSCR
+A                                      CF03(03)
+A            RPTOPT        1A  B  5  5
+A            RPTTXT       40A  O  7  5  VALUE('1=InvList 2=LowStock 3=Ageing 4=Totals')

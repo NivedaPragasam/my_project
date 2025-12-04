@@ -1,0 +1,8 @@
+A          R ITEMMSTR
+A            ITEMNO        15A
+A            ITMDESC       50A
+A            CATCODE       10A
+A            QOH            9P 3
+A            REORDER        9P 3
+A            COST          15P 4
+A          K ITEMNO

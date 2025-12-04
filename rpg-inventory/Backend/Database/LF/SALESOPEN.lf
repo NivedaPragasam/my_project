@@ -1,0 +1,3 @@
+A          R SALESOP                   PFILE(SALESORD)
+A            OPTION(1) VALUE('O')
+A          K SONO

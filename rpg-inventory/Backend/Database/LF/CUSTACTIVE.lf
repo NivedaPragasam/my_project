@@ -1,0 +1,3 @@
+A          R CUSTACT                   PFILE(CUSTMR)
+A          K STATUS
+A            OPTION(1) VALUE('A')

@@ -1,0 +1,15 @@
+A          R HEADER1                    TEXT('Report Header')
+A                                      SPACEA(2)
+A            CONST1       40A          VALUE('ITEM REORDER REPORT')
+A                                      DSPATR(HI)
+
+A          R DETAIL1                    TEXT('Report Line')
+A            ITEMID       10A
+A            DESC         30A
+A            UOM           3A
+A            QOH           7P 0
+A            RQTY          5P 0
+
+A          R FOOTER1
+A                                      SPACEA(1)
+A            CONST2       40A          VALUE('*** END OF REPORT ***')

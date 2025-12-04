@@ -1,0 +1,7 @@
+A          R INVHDRR
+A            INVNO         10A
+A            CUSTNO        10A
+A            INVDATE        8A
+A            AMOUNT        15P 2
+A            STATUS         1A
+A          K INVNO

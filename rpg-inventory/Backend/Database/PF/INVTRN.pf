@@ -1,0 +1,8 @@
+A          R INVTRNR
+A            TRNNO         12A
+A            ITEMNO        15A
+A            TRNTYPE        3A
+A            QTY            9P 3
+A            TRNDATE        8A
+A            REFNO         20A
+A          K TRNNO

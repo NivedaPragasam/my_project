@@ -1,0 +1,13 @@
+     H                    DFTACTGRP(*NO) ACTGRP(*NEW)
+
+     D INVNO         S             10A
+
+     C     *ENTRY        PLIST
+     C                   PARM                    INVNO
+
+     C                   CHAIN     INVHDR        INVNO
+     C                   IF        %FOUND(INVHDR)
+     C                   ELSE
+     C                   DSPly     'INV NOT FOUND'
+     C                   ENDIF
+     C                   SETON                   LR

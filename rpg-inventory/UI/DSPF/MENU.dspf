@@ -1,0 +1,4 @@
+A          R MENUSCR
+A                                      CF03(03)
+A            OPTION        1A  B  5  5
+A            OPTTXT       50A  O  7  5  VALUE('1=Invoices 2=Orders 3=Reports 4=Suppliers 5=Exit')

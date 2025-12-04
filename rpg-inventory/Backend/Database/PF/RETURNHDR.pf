@@ -1,0 +1,6 @@
+A          R RTHDR
+A            RTHDRNO       12A
+A            CUSTNO        10A
+A            RTDATE        8A
+A            STATUS         1A
+A          K RTHDRNO

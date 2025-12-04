@@ -1,0 +1,8 @@
+A          R PRTSHHDR
+A            SHNO          12A
+A            SONO          12A
+A            SHDATE        8A
+A          R PRTSHITEM
+A            SHNO          12A
+A            ITEMNO        15A
+A            QTY            9P 3

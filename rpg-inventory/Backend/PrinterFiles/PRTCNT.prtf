@@ -1,0 +1,5 @@
+A          R PRTCCHDR
+A            CCNO          12A
+A            LOCNO         10A
+A            ITEMNO        15A
+A            EXPECTQTY      9P 3

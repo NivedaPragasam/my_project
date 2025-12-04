@@ -1,0 +1,5 @@
+A          R CUSTMR
+A            CUSTNO        10A
+A            CUSTNAME      50A
+A            STATUS         1A
+A          K CUSTNO

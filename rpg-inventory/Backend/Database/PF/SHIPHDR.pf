@@ -1,0 +1,6 @@
+A          R SHHDR
+A            SHNO          12A
+A            SONO          12A
+A            SHDATE        8A
+A            CARRIER       20A
+A          K SHNO

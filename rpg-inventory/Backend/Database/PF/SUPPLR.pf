@@ -1,0 +1,5 @@
+A          R SUPPLR
+A            SUPPNO        10A
+A            SUPPNAME      50A
+A            STATUS         1A
+A          K SUPPNO
