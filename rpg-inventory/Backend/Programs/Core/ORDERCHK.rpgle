@@ -2,6 +2,7 @@
 ctl-opt dftactgrp(*no) actgrp(*new) option(*srcstmt);
 
 dcl-f ITEMMAS keyed usage(*update);
+dcl-f SALESITEM keyed usage(*update);
 dcl-pi *n sono char(12); end-pi;
 
 // Level 1: entry from ORDENTRY
