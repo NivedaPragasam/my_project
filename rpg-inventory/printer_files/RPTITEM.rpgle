@@ -1,5 +1,5 @@
 FITEMS     IF   E           K DISK
-REPRT  O    F     132    PRINTER OFLIND(*IN99)
+FREPRT  O    F     132    PRINTER OFLIND(*IN99)
 
 D HDS1          S             50A
 

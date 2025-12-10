@@ -7,6 +7,7 @@
 
      /FREE
         // Implementation similar to INVPRT
+        dcl-f INVDET keyed usage(*update);
         setll invno INVDET;
         reade invno INVDET;
         dow %found;
