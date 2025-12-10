@@ -108,32 +108,7 @@
                SNDPGMMSG  MSG('Warning: TAXCALC procedure failed.') TOPGMQ(*EXT)
              ENDDO
  
-             /* ===========================
-                Submit two parallel jobs
-               =========================== */
- 
-             /* Job A */
-             SBMJOB     CMD(CALL PGM(APP/WORKA) PARM(&CUST &ENV)) +
-                        JOB(WORKA) JOBQ(APP/QBATCH) +
-                        MSGQ(&FULLMSGQ) /* route job messages to control queue */
-             MONMSG     MSGID(CPF0000) EXEC(DO)
-               ROLLBACK
-               SNDPGMMSG  MSGID(CPF9898) MSGF(QCPFMSG) +
-                           MSGDTA('Failed to submit WORKA')
-               RETURN
-             ENDDO
- 
-             /* Job B */
-             SBMJOB     CMD(CALL PGM(APP/WORKB) PARM(&CUST &ENV)) +
-                        JOB(WORKB) JOBQ(APP/QBATCH) +
-                        MSGQ(&FULLMSGQ)
-             MONMSG     MSGID(CPF0000) EXEC(DO)
-               ROLLBACK
-               SNDPGMMSG  MSGID(CPF9898) MSGF(QCPFMSG) +
-                           MSGDTA('Failed to submit WORKB')
-               RETURN
-             ENDDO
- 
+             
              /* ===========================
                 Wait for both jobs to end (CPF1164)
                =========================== */
@@ -185,12 +160,7 @@
                RETURN
              ENDDO
  
-             
-            ADDJOBSCDE JOB(MIDNIGHT) CMD(CALL PGM(APP/MIDNIGHTRUN)) +
-                    FRQ(*DAILY) SCDDATE(*NONE) SCDTIME('00:00:00') +
-                    JOBD(APP/SCHEDJOBD) TEXT('Nightly process')
- 
- 
+            
              /* Log phase: DONE */
              RUNSQL     SQL('INSERT INTO QTEMP.SESSION_LOG ' *TCAT +
                          'VALUES(CURRENT_TIMESTAMP, ''DONE'', ''Success'')') +
